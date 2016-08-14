@@ -9,13 +9,18 @@ package statepattern.lab;
  *
  * @author Anish Panthi
  */
-public class StatePatternLAB {
+public class Application {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        CeilingFan fan = new CeilingFan();
+        fan.pullGreen();
+        fan.pullGreen();
+        fan.pullGreen();
+        fan.pullGreen();
+        fan.pullRed();
+        fan.pullRed();
     }
-    
 }

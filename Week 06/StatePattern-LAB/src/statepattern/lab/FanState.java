@@ -3,19 +3,17 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package statepattern.hw;
+package statepattern.lab;
 
 /**
  *
  * @author Anish Panthi
  */
-public class StatePatternHW {
+public interface FanState {
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
-    }
-    
+    void printState();
+
+    FanState nextState();
+
+    FanState previousState();
 }
